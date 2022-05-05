@@ -183,9 +183,15 @@ class _APIPageState extends State<APIPage> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: const [
-                            Icon(Icons.mobile_off),
+                            Icon(
+                              Icons.mobile_off,
+                              color: Colors.white,
+                            ),
                             Text(
                               'No Internet',
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
                             ),
                           ],
                         ),
